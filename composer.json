@@ -1,0 +1,8 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "phpdocumentor/reflection": " ~4.0",
+        "symfony/console": "^4.3@dev",
+        "mpdf/mpdf": "dev-master"
+    }
+}
