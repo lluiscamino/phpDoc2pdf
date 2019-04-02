@@ -2,7 +2,7 @@
 
 Create PDF formatted documentation for your PHP projects.
 
-phpDoc2pdf uses the [phpDocumentor/Reflection](https://github.com/phpDocumentor/Reflection) library to extract the classes, interfaces and traits from your project and generate a set of documentation similiar to the one that [phpDocumentor2](https://github.com/phpDocumentor/phpDocumentor2) provides, but in PDF format.
+phpDoc2pdf uses the [phpDocumentor/Reflection](https://github.com/phpDocumentor/Reflection) library to extract the classes, interfaces and traits from your project and generate a set of documentation similar to the one that [phpDocumentor2](https://github.com/phpDocumentor/phpDocumentor2) provides, but in PDF format.
 
 You can see some examples on the [docs](/docs) folder.
 
@@ -54,6 +54,7 @@ All contributions are welcome, please see the To-do list below or suggest someth
 
 - [ ] Add tests
 - [ ] Add markdown support
+- [ ] Add templates system
 - [ ] Separate generated docs into different subdirectories
 - [ ] Make installation and usage simpler
 - [ ] Include phpDocBlock types on method arguments
