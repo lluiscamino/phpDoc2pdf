@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+}
+
+pre {
+    background-color: #fff3d4;
+    font-size: 0.9em;
+    border: 1px solid #f6b73c;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+table {
+    width: 100%;
+}
+
+th, tr {
+    text-align: left;
+    padding-left: 30px;
+}
+
+em {
+    font-size: 0.8em;
+}
