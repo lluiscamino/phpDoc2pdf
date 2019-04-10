@@ -1,4 +1,5 @@
 # phpDoc2pdf
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/lluiscamino/phpDoc2pdf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/lluiscamino/phpDoc2pdf/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/lluiscamino/phpDoc2pdf/badges/build.png?b=master)](https://scrutinizer-ci.com/g/lluiscamino/phpDoc2pdf/build-status/master)
 
 Create PDF formatted documentation for your PHP projects.
 
@@ -54,7 +55,7 @@ All contributions are welcome, please see the To-do list below or suggest someth
 
 - [ ] Add tests
 - [ ] Add markdown support
-- [ ] Add templates system
+- [x] Add templates system
 - [ ] Separate generated docs into different subdirectories
 - [ ] Make installation and usage simpler
 - [ ] Include phpDocBlock types on method arguments
@@ -62,4 +63,3 @@ All contributions are welcome, please see the To-do list below or suggest someth
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
