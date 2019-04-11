@@ -1,5 +1,6 @@
 <h2>Constants</h2>
 <?php
+$parsedown = new \Parsedown();
 foreach ($constants as $constant) {
     $summary = ($constant->getDocBlock() !== null && $constant->getDocBlock()->getSummary() !== '') ? $constant->getDocBlock()->getSummary() . '<br>' : '';
     $description = ($constant->getDocBlock() !== null && $constant->getDocBlock()->getDescription() !== '') ? $constant->getDocBlock()->getDescription() : '';
@@ -10,5 +11,5 @@ foreach ($constants as $constant) {
     </h3>
     <pre><?php echo $constant->getName() ?></pre>
     <i><?php echo $summary ?></i><br>
-    <?php echo $description;
+    <?php echo $parsedown->text($description);
 }

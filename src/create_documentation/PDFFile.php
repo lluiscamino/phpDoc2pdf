@@ -43,8 +43,9 @@ class PDFFile extends \Mpdf\Mpdf {
      * @throws \Mpdf\MpdfException
      */
     public function createFromClass(\phpDocumentor\Reflection\Php\Class_ $class): void {
+        $parsedown = new \Parsedown();
         $summary = $class->getDocBlock() !== null ? $class->getDocBlock()->getSummary() : '';
-        $description = $class->getDocBlock() !== null ? $class->getDocBlock()->getDescription() : '';
+        $description = $class->getDocBlock() !== null ? $parsedown->text($class->getDocBlock()->getDescription()) : '';
         $this->writeHeader($class->getName(), $summary, $description);
         $this->writeSummary($class->getConstants(), $class->getProperties(), $class->getMethods());
         $this->writeConstants($class->getConstants());
