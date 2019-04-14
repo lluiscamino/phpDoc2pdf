@@ -48,6 +48,7 @@ Replace ``INPUT`` with the PHP file or directory that you want to document and `
 * [mpdf](https://github.com/mpdf/mpdf)
 * [thephpleague/plates](https://github.com/thephpleague/plates)
 * [erusev/parsedown](https://github.com/erusev/parsedown)
+* [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit)
 
 ## Contributing
 
@@ -55,7 +56,7 @@ All contributions are welcome, please see the To-do list below or suggest someth
 
 ## To-do list
 
-- [ ] Add tests
+- [x] Add tests
 - [x] Add markdown support
 - [x] Add templates system
 - [ ] Separate generated docs into different subdirectories
