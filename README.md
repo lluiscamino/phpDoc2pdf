@@ -46,6 +46,8 @@ Replace ``INPUT`` with the PHP file or directory that you want to document and `
 * [phpDocumentor2/Reflection](https://github.com/phpDocumentor/Reflection)
 * [Symfony/Console](https://github.com/symfony/console)
 * [mpdf](https://github.com/mpdf/mpdf)
+* [thephpleague/plates](https://github.com/thephpleague/plates)
+* [erusev/parsedown](https://github.com/erusev/parsedown)
 
 ## Contributing
 
@@ -54,7 +56,7 @@ All contributions are welcome, please see the To-do list below or suggest someth
 ## To-do list
 
 - [ ] Add tests
-- [ ] Add markdown support
+- [x] Add markdown support
 - [x] Add templates system
 - [ ] Separate generated docs into different subdirectories
 - [ ] Make installation and usage simpler
