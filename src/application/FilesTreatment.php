@@ -1,6 +1,6 @@
 <?php
 namespace application;
-require '../create_documentation/PDFFile.php';
+require dirname(__DIR__) . '/create_documentation/PDFFile.php';
 
 use create_documentation\PDFFile;
 
