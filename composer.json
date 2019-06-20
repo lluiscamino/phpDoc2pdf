@@ -1,4 +1,11 @@
 {
+    "name": "lluiscamino/phpDoc2pdf",
+    "description": "Create PDF formatted documentation for your PHP projects.",
+    "keywords": [
+        "phpdoc", "phpdoc2pdf", "pdf phpdocumentor"
+    ],
+    "homepage": "https://github.com/lluiscamino/phpDoc2pdf",
+    "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "phpdocumentor/reflection": " ~4.0",
