@@ -1,5 +1,5 @@
 {
-    "name": "lluiscamino/phpDoc2pdf",
+    "name": "lluiscamino/php-doc2pdf",
     "description": "Create PDF formatted documentation for your PHP projects.",
     "keywords": [
         "phpdoc", "phpdoc2pdf", "pdf phpdocumentor"
