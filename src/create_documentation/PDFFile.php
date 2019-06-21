@@ -10,7 +10,7 @@ class PDFFile extends \Mpdf\Mpdf {
     /**
      * @var string
      */
-    private $templatesPath = '../../templates/default';
+    private $templatesPath = '/templates/default';
 
     /**
      * @var \League\Plates\Engine
@@ -33,9 +33,12 @@ class PDFFile extends \Mpdf\Mpdf {
      * @throws \Mpdf\MpdfException
      */
     public function __construct(string $path) {
+        $this->templatesPath = \Phar::running() !== '' ? \Phar::running() . $this->templatesPath
+            : '../../templates/default';
         $this->path = $path;
         $this->templatesEngine = new \League\Plates\Engine($this->templatesPath);
-        parent::__construct();
+        parent::__construct(['tempDir' => sys_get_temp_dir() . '/mpdf']);
+        $this->simpleTables = true;
     }
 
     /**
