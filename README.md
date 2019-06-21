@@ -13,33 +13,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-1. Clone the repo
-
-```bash
-git clone https://github.com/lluiscamino/phpDoc2pdf.git
-```
-
-2. Go into the ``phpDoc2pdf`` folder
-
-```bash
-cd phpDoc2pdf
-```
-
-3. Install [composer](https://github.com/composer/composer) dependencies
-
-```bash
-php composer.phar install
-```
+1. Download the PHAR file directly from [here](https://github.com/lluiscamino/phpDoc2pdf/releases).
 
 ### Usage
 
-Go into the ``src/application`` directory and run this command:
+Use the following command to generate the documentation:
 
 ```bash
-php createDocs.php create INPUT OUTPUT
+php phpDoc2pdf.phar create <INPUT> <OUTPUT>
 ```
 
-Replace ``INPUT`` with the PHP file or directory that you want to document and ``OUTPUT`` with the directory where documentation will be generated.
+Replace ``<INPUT>`` with the PHP file or directory that you want to document and ``<OUTPUT>`` with the directory where the documentation will be saved.
 
 ## Built With
 
@@ -60,7 +44,7 @@ All contributions are welcome, please see the To-do list below or suggest someth
 - [x] Add markdown support
 - [x] Add templates system
 - [ ] Separate generated docs into different subdirectories
-- [ ] Make installation and usage simpler
+- [x] Make installation and usage simpler
 - [ ] Include phpDocBlock types on method arguments
 
 ## License
