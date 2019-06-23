@@ -25,6 +25,8 @@ php phpDoc2pdf.phar create <INPUT> <OUTPUT>
 
 Replace ``<INPUT>`` with the PHP file or directory that you want to document and ``<OUTPUT>`` with the directory where the documentation will be saved.
 
+Please note that the files you want to document have to be in UTF-8 format.
+
 ## Built With
 
 * [phpDocumentor2/Reflection](https://github.com/phpDocumentor/Reflection)
@@ -46,6 +48,7 @@ All contributions are welcome, please see the To-do list below or suggest someth
 - [ ] Separate generated docs into different subdirectories
 - [x] Make installation and usage simpler
 - [ ] Include phpDocBlock types on method arguments
+- [ ] Add support for all type of file extensions.
 
 ## License
 
