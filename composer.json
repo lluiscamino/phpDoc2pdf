@@ -7,11 +7,12 @@
     "homepage": "https://github.com/lluiscamino/phpDoc2pdf",
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable":  true,
     "require": {
-        "phpdocumentor/reflection": " ~4.0",
-        "symfony/console": "^4.3@dev",
-        "mpdf/mpdf": "dev-master",
+        "mpdf/mpdf": "^8.0",
         "league/plates": "3.*",
-        "erusev/parsedown": "dev-master"
+        "erusev/parsedown": "^1.7",
+        "symfony/console": "^4.3",
+        "phpdocumentor/reflection": "~4.0"
     }
 }
